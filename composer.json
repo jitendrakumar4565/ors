@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-opencv/php-opencv": "^1.0"
+    }
+}

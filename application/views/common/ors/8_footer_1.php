@@ -1,0 +1,221 @@
+<style>
+    footer.mt-5 {
+        margin-top: 0 !important;
+    }
+</style>
+<link rel="stylesheet" href="<?php echo base_url('assets/ors/site/theme1/plugins/owl-carousel/css/owl.carousel.min.css') ?>">
+<!-- Feedback rating CSS -->
+<script src="<?php echo base_url('assets/ors/site/theme1/plugins/jquery-marquee/jm.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/ors/site/theme1/plugins/owl-carousel/owl.carousel.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/ors/site/theme1/plugins/jquery-lazy/jquery.lazy.min.js') ?>" defer></script>
+<!-- Feedback rating JS -->
+<script src="<?php echo base_url('assets/ors/site/theme1/plugins/fxss-rate/rate.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/ors/site/theme1/plugins/fxss-rate/need/iconfont.js') ?>"></script>
+<script src="<?php echo base_url('assets/ors/site/theme1/js/home.js') ?>" defer></script>
+<script src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/exam/js/sweetalert2.all.js') ?>"></script>
+<script src="<?php echo base_url('assets/plugins/sweetalert2/sweetalert2.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/plugins/toastr/toastr.min.js') ?>"></script>
+<!-- Select2 -->
+<script src="<?php echo base_url('assets/plugins/select2/js/select2.full.min.js') ?>"></script>
+<footer class="mt-0">
+    <section class="links container-fluid py-5">
+        <div class="container">
+            <div class="row gy-4 g-lg-0">
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h6 class="mb-3">Help Desk</h6>
+                    <section class="recent-updates mb-2">
+                        <article class="py-1 mb-1">
+                            <div>
+                                <img width="16" src="<?php echo base_url('assets/ors/site/theme1/images/phone.png') ?>" alt="Phone icon">
+                                <span class="dept-text text-white fw-bold small">
+                                    Helpline No    
+                                </span>
+                            </div>
+                            <p class="dept-text small my-1 text-warning">
+                                +91 94852 31286 , +91 60095 62429 <br> +91 360-2291 251
+                            </p>
+                            <p class="dept-text small m-0 text-warning">
+                                Monday to Friday (10:00AM to 05:00PM)   
+                            </p>
+                        </article>
+
+                        <article class="py-1">
+                            <div>
+                                <img width="16" src="<?php echo base_url('assets/ors/site/theme1/images/email.png') ?>" alt="Email icon">
+                                <span class="dept-text text-white fw-bold small">
+                                    E-mail         
+                                </span>
+                            </div>
+                            <span class="dept-text  d-block text-truncate small mt-1 text-warning">
+                                helpdesk-apssb@arn.gov.in
+                            </span>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="mb-3">Emergency Number</h6>
+                    <ul class="list-unstyled ord-footer-links">
+                        <li class="py-1">
+                            <a href="#" class="dept-text small text-decoration-none">
+                                General Terms and Conditions
+                            </a>
+                        </li>
+                        <li class="py-1">
+                            <a href="#" class="dept-text small text-decoration-none">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="py-1">
+                            <a href="#" class="dept-text small text-decoration-none">
+                                Copyright Policy 
+                            </a>
+                        </li>
+                        <li class="py-1">
+                            <a href="#" class="dept-text small text-decoration-none">
+                                Refund & Cancellation Policy
+                            </a>
+                        </li>
+                        <li class="py-1">
+                            <a href="javascript:void(0)" class="dept-text small text-decoration-none">
+                                Accessibility Policy 
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="w-75 visitors d-none border border-light border-1 rounded-0 p-2 d-flex justify-content-start align-items-start">
+                        <img width="30" src="javascript:void(0)" alt="visitor icon">
+                        Share your Feedback
+                        <a href="javascript:void(0)" class="visitors ms-3 fw-bold text-decoration-none">Share your Feedback</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="imp mb-3">Important Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="py-1">
+                            <a href="https://apssb.nic.in/" target="_blank" rel="noopener noreferrer" class="dept-text small text-decoration-none">
+                                Arunachal Pradesh Staff Selection Board
+                            </a>
+                        </li>
+
+                        <li class="py-1">
+                            <a href="https://appsc.gov.in/Index/institute_home/ins/RECINS001" target="_blank" rel="noopener noreferrer" class="dept-text small text-decoration-none">
+                                Arunachal Pradesh Public Service Commission
+                            </a>
+                        </li>
+
+                        <li class="py-1">
+                            <a href="https://arunachalpradesh.gov.in/" target="_blank" rel="noopener noreferrer" class="dept-text small text-decoration-none">
+                                Arunachal State Portal
+                            </a>
+                        </li>
+
+                        <li class="py-1">
+                            <a href="https://arunachalilp.com/" target="_blank" rel="noopener noreferrer" class="dept-text small text-decoration-none">
+                                Arunachal Inner Line Permit
+                            </a>
+                        </li>
+
+                        <li class="py-1">
+                            <a href="http://health.arunachal.gov.in/" target="_blank" rel="noopener noreferrer" class="dept-text small text-decoration-none">
+                                Arunachal Covid-19 Advisory
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="nodal mb-3">Address</h6>
+                    <a href="https://apssb.nic.in" class="dept-text small text-decoration-none" target="_blank" rel="noopener noreferrer">
+                        Arunachal Pradesh Staff Selection Board,Circuit House, C- Sector, Itanagar, Arunachal Pradesh
+                    </a>
+                    <h6 class="my-3">Designed & Developed by</h6>
+                    <a href="https://apssb.nic.in" class="dept-text small text-decoration-none" target="_blank" rel="noopener noreferrer">
+                        Arunachal Pradesh Staff Selection Board, Arunachal  
+                    </a>
+                    <img class="d-block text-center" style="" width="300" src="<?php echo base_url('assets/ors/site/theme1/images/footer/apssb_logo.png') ?>" alt="APSSB logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="copyright container-fluid pt-2 pb-0">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-baseline flex-wrap">
+            <p class="dept-text text-white small">
+                Last updated <span>01.01.2023</span>
+            </p>
+
+            <p class="fw-bold order-1 order-md-0 text-white">
+                Total Visitors:
+                <span>0</span>
+            </p>
+
+            <p class="dept-text text-white small">
+                Copyright &copy; <span> 2023 </span> |
+                Government of Arunachal Pradesh 
+            </p>
+        </div>
+    </section>
+
+    <!-- Scroll to top button -->
+    <button class="scrollToTopBtn"><i class="fas fa-chevron-up"></i></button>
+    <!-- ChatBot Button -->
+    <button type="button" class="btn chatbot-btn"></button>
+</footer>
+<script>
+    $(document).on('hidden.bs.modal', function (event) {
+        if ($('.modal:visible').length) {
+            $('body').addClass('modal-open');
+        }
+
+    });
+    $('.select2').select2();
+    var offline = 2;
+    var online = 2;
+    var Toast = Swal.mixin({
+        toast: true,
+        position: "top",
+        showConfirmButton: false,
+        timer: 5000
+    });
+    $(document).ready(function () {
+        var msg = '<?php echo $this->session->flashdata('message'); ?>';
+        if (msg != "") {
+            Toast.fire({icon: 'success', title: msg});
+        }
+        setInterval(function () {
+            isOnline()
+        }, 5000);
+    });
+
+    function isOnline() {
+        if (navigator.onLine) {
+            offline = 1;
+            if (online == 1) {
+                Toast.fire({icon: 'success', title: ' Back To Online'});
+            }
+            online = 2;
+        } else {
+            online = 1;
+            if (offline == 1) {
+                Toast.fire({icon: 'warning', title: ' No Internet Connection'});
+            }
+            offline = 2;
+        }
+    }
+
+    function showHidePwd(id) {
+        var attr = $('#' + id).attr("type");
+        if (attr == "password") {
+            $('#' + id).attr("type", "text");
+            $('.' + id).removeClass('fa-eye');
+            $('.' + id).addClass('fa-eye-slash');
+        } else {
+            $('#' + id).attr("type", "password");
+            $('.' + id).removeClass('fa-eye-slash');
+            $('.' + id).addClass('fa-eye');
+        }
+    }
+</script>
+</body>
+</html>
